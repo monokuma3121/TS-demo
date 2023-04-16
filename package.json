@@ -1,0 +1,27 @@
+{
+  "name": "ts-demo",
+  "version": "1.0.0",
+  "description": "TypeScript 练习 demo，爬虫",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./src/index.ts",
+    "build":"tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monokuma3121/TS-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monokuma3121/TS-demo/issues"
+  },
+  "homepage": "https://github.com/monokuma3121/TS-demo#readme",
+  "devDependencies": {
+    "@types/superagent": "^4.1.16",
+    "cheerio": "^1.0.0-rc.12",
+    "superagent": "^8.0.9",
+    "typescript": "^5.0.4"
+  }
+}
